@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: ee491e_pk
+  host: ee491epk
+  disk_quota: 1024M
+  services:
+  - ee491e_pk-cloudantNoSQLDB
+  - ee491e_pk-iotf-service
